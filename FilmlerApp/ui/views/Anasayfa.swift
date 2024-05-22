@@ -47,7 +47,7 @@ class Anasayfa: UIViewController {
 
 }
 
-extension Anasayfa: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
+extension Anasayfa: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout, HucreProtocol {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return filmlerListesi.count
     }
@@ -64,6 +64,9 @@ extension Anasayfa: UICollectionViewDelegate, UICollectionViewDataSource, UIColl
         cell.layer.borderColor = UIColor.lightGray.cgColor
         cell.layer.borderWidth = 0.3
         cell.layer.cornerRadius = 10.0
+        
+        cell.hucreProtocol = self
+        cell.indexPath = indexPath
         
         return cell
     }
@@ -82,7 +85,10 @@ extension Anasayfa: UICollectionViewDelegate, UICollectionViewDataSource, UIColl
         }
     }
 
-    
+    func sepeteEkleTikla(indexPath: IndexPath) {
+        let film = filmlerListesi[indexPath.row]
+        print("\(film.ad!) seçildi")
+    }
     
     
 }
