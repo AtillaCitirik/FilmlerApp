@@ -16,6 +16,7 @@
 		452A7EDE2BF8F54C0094A8C6 /* Filmler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452A7EDD2BF8F54C0094A8C6 /* Filmler.swift */; };
 		452A7EE02BF8F59A0094A8C6 /* DetaySayfa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452A7EDF2BF8F59A0094A8C6 /* DetaySayfa.swift */; };
 		452A7EE22BF8F7050094A8C6 /* FilmlerHucre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452A7EE12BF8F7050094A8C6 /* FilmlerHucre.swift */; };
+		452A7F3A2C04CE810094A8C6 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 452A7F392C04CE810094A8C6 /* RxSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				452A7F3A2C04CE810094A8C6 /* RxSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +134,9 @@
 			dependencies = (
 			);
 			name = FilmlerApp;
+			packageProductDependencies = (
+				452A7F392C04CE810094A8C6 /* RxSwift */,
+			);
 			productName = FilmlerApp;
 			productReference = 452A7EC12BF8F4820094A8C6 /* FilmlerApp.app */;
 			productType = "com.apple.product-type.application";
@@ -160,6 +165,9 @@
 				Base,
 			);
 			mainGroup = 452A7EB82BF8F4820094A8C6;
+			packageReferences = (
+				452A7F382C04CE810094A8C6 /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = 452A7EC22BF8F4820094A8C6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -415,6 +423,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		452A7F382C04CE810094A8C6 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		452A7F392C04CE810094A8C6 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 452A7F382C04CE810094A8C6 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 452A7EB92BF8F4820094A8C6 /* Project object */;
 }
