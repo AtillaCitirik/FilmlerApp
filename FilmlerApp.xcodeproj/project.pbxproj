@@ -17,6 +17,8 @@
 		452A7EE02BF8F59A0094A8C6 /* DetaySayfa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452A7EDF2BF8F59A0094A8C6 /* DetaySayfa.swift */; };
 		452A7EE22BF8F7050094A8C6 /* FilmlerHucre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452A7EE12BF8F7050094A8C6 /* FilmlerHucre.swift */; };
 		452A7F3A2C04CE810094A8C6 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 452A7F392C04CE810094A8C6 /* RxSwift */; };
+		452A7F3D2C05F0230094A8C6 /* FilmlerDaoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452A7F3C2C05F0230094A8C6 /* FilmlerDaoRepository.swift */; };
+		452A7F402C05F0520094A8C6 /* AnaSayfaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452A7F3F2C05F0520094A8C6 /* AnaSayfaViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		452A7EDD2BF8F54C0094A8C6 /* Filmler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filmler.swift; sourceTree = "<group>"; };
 		452A7EDF2BF8F59A0094A8C6 /* DetaySayfa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetaySayfa.swift; sourceTree = "<group>"; };
 		452A7EE12BF8F7050094A8C6 /* FilmlerHucre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmlerHucre.swift; sourceTree = "<group>"; };
+		452A7F3C2C05F0230094A8C6 /* FilmlerDaoRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmlerDaoRepository.swift; sourceTree = "<group>"; };
+		452A7F3F2C05F0520094A8C6 /* AnaSayfaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnaSayfaViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 		452A7ED82BF8F4AA0094A8C6 /* data */ = {
 			isa = PBXGroup;
 			children = (
+				452A7F3B2C05F00B0094A8C6 /* repo */,
 				452A7EDB2BF8F4D00094A8C6 /* entity */,
 			);
 			path = data;
@@ -87,6 +92,7 @@
 		452A7ED92BF8F4BE0094A8C6 /* ui */ = {
 			isa = PBXGroup;
 			children = (
+				452A7F3E2C05F0410094A8C6 /* viewModel */,
 				452A7EDC2BF8F4D70094A8C6 /* collectionview */,
 				452A7EDA2BF8F4C40094A8C6 /* views */,
 			);
@@ -116,6 +122,22 @@
 				452A7EE12BF8F7050094A8C6 /* FilmlerHucre.swift */,
 			);
 			path = collectionview;
+			sourceTree = "<group>";
+		};
+		452A7F3B2C05F00B0094A8C6 /* repo */ = {
+			isa = PBXGroup;
+			children = (
+				452A7F3C2C05F0230094A8C6 /* FilmlerDaoRepository.swift */,
+			);
+			path = repo;
+			sourceTree = "<group>";
+		};
+		452A7F3E2C05F0410094A8C6 /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+				452A7F3F2C05F0520094A8C6 /* AnaSayfaViewModel.swift */,
+			);
+			path = viewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,10 +219,12 @@
 			files = (
 				452A7EC92BF8F4820094A8C6 /* Anasayfa.swift in Sources */,
 				452A7EC52BF8F4820094A8C6 /* AppDelegate.swift in Sources */,
+				452A7F402C05F0520094A8C6 /* AnaSayfaViewModel.swift in Sources */,
 				452A7EC72BF8F4820094A8C6 /* SceneDelegate.swift in Sources */,
 				452A7EE02BF8F59A0094A8C6 /* DetaySayfa.swift in Sources */,
 				452A7EDE2BF8F54C0094A8C6 /* Filmler.swift in Sources */,
 				452A7EE22BF8F7050094A8C6 /* FilmlerHucre.swift in Sources */,
+				452A7F3D2C05F0230094A8C6 /* FilmlerDaoRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
