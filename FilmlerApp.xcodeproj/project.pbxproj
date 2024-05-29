@@ -19,6 +19,12 @@
 		452A7F3A2C04CE810094A8C6 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 452A7F392C04CE810094A8C6 /* RxSwift */; };
 		452A7F3D2C05F0230094A8C6 /* FilmlerDaoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452A7F3C2C05F0230094A8C6 /* FilmlerDaoRepository.swift */; };
 		452A7F402C05F0520094A8C6 /* AnaSayfaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452A7F3F2C05F0520094A8C6 /* AnaSayfaViewModel.swift */; };
+		452A7F862C078A1D0094A8C6 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 452A7F7B2C078A1D0094A8C6 /* FMDatabaseQueue.m */; };
+		452A7F872C078A1D0094A8C6 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 452A7F7C2C078A1D0094A8C6 /* FMDatabasePool.m */; };
+		452A7F882C078A1D0094A8C6 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 452A7F7F2C078A1D0094A8C6 /* FMResultSet.m */; };
+		452A7F892C078A1D0094A8C6 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 452A7F832C078A1D0094A8C6 /* FMDatabase.m */; };
+		452A7F8A2C078A1D0094A8C6 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 452A7F852C078A1D0094A8C6 /* FMDatabaseAdditions.m */; };
+		452A7F8C2C078A5C0094A8C6 /* filmler_app.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 452A7F8B2C078A5C0094A8C6 /* filmler_app.sqlite */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +41,20 @@
 		452A7EE12BF8F7050094A8C6 /* FilmlerHucre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmlerHucre.swift; sourceTree = "<group>"; };
 		452A7F3C2C05F0230094A8C6 /* FilmlerDaoRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmlerDaoRepository.swift; sourceTree = "<group>"; };
 		452A7F3F2C05F0520094A8C6 /* AnaSayfaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnaSayfaViewModel.swift; sourceTree = "<group>"; };
+		452A7F792C0789F00094A8C6 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		452A7F7A2C078A1D0094A8C6 /* FilmlerApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FilmlerApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		452A7F7B2C078A1D0094A8C6 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		452A7F7C2C078A1D0094A8C6 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		452A7F7D2C078A1D0094A8C6 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		452A7F7E2C078A1D0094A8C6 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		452A7F7F2C078A1D0094A8C6 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		452A7F802C078A1D0094A8C6 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		452A7F812C078A1D0094A8C6 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		452A7F822C078A1D0094A8C6 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		452A7F832C078A1D0094A8C6 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		452A7F842C078A1D0094A8C6 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		452A7F852C078A1D0094A8C6 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		452A7F8B2C078A5C0094A8C6 /* filmler_app.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = filmler_app.sqlite; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,7 @@
 			children = (
 				452A7EC32BF8F4820094A8C6 /* FilmlerApp */,
 				452A7EC22BF8F4820094A8C6 /* Products */,
+				452A7F782C0789F00094A8C6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,6 +97,19 @@
 				452A7ECD2BF8F4830094A8C6 /* Assets.xcassets */,
 				452A7ECF2BF8F4830094A8C6 /* LaunchScreen.storyboard */,
 				452A7ED22BF8F4830094A8C6 /* Info.plist */,
+				452A7F812C078A1D0094A8C6 /* FMDatabase.h */,
+				452A7F832C078A1D0094A8C6 /* FMDatabase.m */,
+				452A7F822C078A1D0094A8C6 /* FMDatabaseAdditions.h */,
+				452A7F852C078A1D0094A8C6 /* FMDatabaseAdditions.m */,
+				452A7F802C078A1D0094A8C6 /* FMDatabasePool.h */,
+				452A7F7C2C078A1D0094A8C6 /* FMDatabasePool.m */,
+				452A7F7D2C078A1D0094A8C6 /* FMDatabaseQueue.h */,
+				452A7F7B2C078A1D0094A8C6 /* FMDatabaseQueue.m */,
+				452A7F7E2C078A1D0094A8C6 /* FMDB.h */,
+				452A7F842C078A1D0094A8C6 /* FMResultSet.h */,
+				452A7F7F2C078A1D0094A8C6 /* FMResultSet.m */,
+				452A7F7A2C078A1D0094A8C6 /* FilmlerApp-Bridging-Header.h */,
+				452A7F8B2C078A5C0094A8C6 /* filmler_app.sqlite */,
 			);
 			path = FilmlerApp;
 			sourceTree = "<group>";
@@ -140,6 +174,14 @@
 			path = viewModel;
 			sourceTree = "<group>";
 		};
+		452A7F782C0789F00094A8C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				452A7F792C0789F00094A8C6 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -175,6 +217,7 @@
 				TargetAttributes = {
 					452A7EC02BF8F4820094A8C6 = {
 						CreatedOnToolsVersion = 15.3;
+						LastSwiftMigration = 1530;
 					};
 				};
 			};
@@ -205,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				452A7ECE2BF8F4830094A8C6 /* Assets.xcassets in Resources */,
+				452A7F8C2C078A5C0094A8C6 /* filmler_app.sqlite in Resources */,
 				452A7ED12BF8F4830094A8C6 /* Base in Resources */,
 				452A7ECC2BF8F4820094A8C6 /* Base in Resources */,
 			);
@@ -220,11 +264,16 @@
 				452A7EC92BF8F4820094A8C6 /* Anasayfa.swift in Sources */,
 				452A7EC52BF8F4820094A8C6 /* AppDelegate.swift in Sources */,
 				452A7F402C05F0520094A8C6 /* AnaSayfaViewModel.swift in Sources */,
+				452A7F892C078A1D0094A8C6 /* FMDatabase.m in Sources */,
 				452A7EC72BF8F4820094A8C6 /* SceneDelegate.swift in Sources */,
 				452A7EE02BF8F59A0094A8C6 /* DetaySayfa.swift in Sources */,
 				452A7EDE2BF8F54C0094A8C6 /* Filmler.swift in Sources */,
 				452A7EE22BF8F7050094A8C6 /* FilmlerHucre.swift in Sources */,
+				452A7F8A2C078A1D0094A8C6 /* FMDatabaseAdditions.m in Sources */,
+				452A7F872C078A1D0094A8C6 /* FMDatabasePool.m in Sources */,
+				452A7F882C078A1D0094A8C6 /* FMResultSet.m in Sources */,
 				452A7F3D2C05F0230094A8C6 /* FilmlerDaoRepository.swift in Sources */,
+				452A7F862C078A1D0094A8C6 /* FMDatabaseQueue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +423,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = V967A2TB33;
@@ -392,6 +442,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.atillacitirik.FilmlerApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "FilmlerApp/FilmlerApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -402,6 +454,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = V967A2TB33;
@@ -420,6 +473,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.atillacitirik.FilmlerApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "FilmlerApp/FilmlerApp-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
